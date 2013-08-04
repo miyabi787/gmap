@@ -1,0 +1,10 @@
+2013-08-04 17:55:31 Error: Fatal Error (4): syntax error, unexpected '{', expecting '(' in [/home/mi/kadai-gmap/app/Controller/MainsController.php, line 4]
+2013-08-04 17:55:31 Error: [FatalErrorException] syntax error, unexpected '{', expecting '('
+Request URL: /
+Stack Trace:
+#0 /home/mi/kadai-gmap/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/mi/kadai-...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/mi/kadai-...', 4, Array)
+#2 /home/mi/kadai-gmap/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/mi/kadai-...', 4, Array)
+#3 /home/mi/kadai-gmap/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
